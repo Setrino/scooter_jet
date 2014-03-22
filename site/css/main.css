@@ -1,0 +1,229 @@
+body {
+    margin:0px;
+    padding:0px;
+    text-align:center;
+    font: 13px Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: #666666;
+}
+
+header{
+    height: 207px;
+    background: transparent url(../images/top.png) no-repeat center;
+}
+
+footer{
+    height: 42px;
+    background: transparent url(../images/bottom.png) no-repeat center;
+}
+
+footer span{
+    position: relative;
+    bottom: -13px;
+}
+
+nav{
+    width: 620px;
+    height: 22px;
+    margin: 0 auto;
+    margin-top: -10px;
+    font-size: 16px;
+    padding-left: 20px;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    /*IE 7 AND 8 DO NOT SUPPORT BORDER RADIUS*/
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#eeecd0', endColorstr = '#bbb99d');
+    /*INNER ELEMENTS MUST NOT BREAK THIS ELEMENTS BOUNDARIES*/
+    /*Element must have a height (not auto)*/
+    /*All filters must be placed together*/
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr = '#eeecd0', endColorstr = '#bbb99d')";
+    /*Element must have a height (not auto)*/
+    /*All filters must be placed together*/
+    background-image: -moz-linear-gradient(top, #eeecd0, #bbb99d);
+    background-image: -ms-linear-gradient(top, #eeecd0, #bbb99d);
+    background-image: -o-linear-gradient(top, #eeecd0, #bbb99d);
+    background-image: -webkit-gradient(linear, center top, center bottom, from(#eeecd0), to(#bbb99d));
+    background-image: -webkit-linear-gradient(top, #eeecd0, #bbb99d);
+    background-image: linear-gradient(top, #eeecd0, #bbb99d);
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    /*Use "background-clip: padding-box" when using rounded corners to avoid the gradient bleeding through the corners*/
+    /*--IE9 WILL PLACE THE FILTER ON TOP OF THE ROUNDED CORNERS--*/
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    list-style-image: none;
+}
+
+nav ul li{
+    margin-top: 2px;
+    display: inline-block;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+nav ul li a{
+    color: #38372f;
+    text-decoration: none;
+}
+
+nav ul li.active a{
+    color: #534d0f;
+}
+
+nav ul li a:hover{
+    color: #534d0f;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: #8b8b41;
+}
+
+address{
+    text-align: left;
+    line-height: 140%;
+    font-size: 20px;
+    font-style: normal;
+    color: #000000;
+}
+
+address a{
+    color: #000000;
+}
+
+article{
+    text-align: left;
+    color: #353f15;
+}
+
+article h1{
+    font-size: 15px;
+    color: #353f15;
+}
+
+article p{
+    line-height: 60%;
+}
+
+aside{
+    color: #353f15;
+}
+
+aside h1{
+    font-size: 15px;
+}
+
+#header_wrapper{
+    position: relative;
+    padding-top: 20px;
+}
+
+#wrapper{
+    width: 950px;
+    margin: 0 auto;
+}
+
+#footer_wrapper{
+    position: relative;
+}
+
+.language{
+    position: absolute;
+    top: 0;
+    right: 10px;
+    margin: 0 auto;
+    height: 15px;
+    width: 140px;
+}
+
+.language ul{
+    list-style: none;
+    list-style-image: none;
+}
+
+.language ul li{
+    display: inline-block;
+    text-align: right;
+}
+
+.language ul li a{
+    color: #000000;
+}
+
+.contact{
+    margin-top: 25px;
+    margin-bottom: 5px;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    border-color: #bab24e;
+    color: #8b8b41;
+    font-size: 15px;
+}
+
+.contact td{
+    height: 25px;
+}
+
+.contact a{
+    color: #000000;
+}
+
+.contact_info{
+    display: block;
+}
+
+.contact_table{
+    height: 300px;
+}
+
+.bikes{
+    height: 418px;
+}
+
+.cell_up{
+    vertical-align: top;
+}
+
+.cell_down{
+    vertical-align: bottom;
+}
+
+.wheel{
+    position: absolute;
+    right: 0px;
+    bottom: -27px;
+    z-index: -1;
+}
+
+.map{
+    position: relative;
+    top: 10px;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    border-color: #bab24e;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.price{
+    padding-bottom: 15px;
+}
+
+.special{
+    line-height: 55%;
+    height: 418px;
+}
